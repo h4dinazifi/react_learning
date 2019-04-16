@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Iransans;
+    src:url("font/Iransans.woff");
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9 !important;
+    font-family: Iransans, sans-serif !important;
+    font-size: 12px !important;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.login-page-logo {
+    text-align: center;
+}
+
+.login-part-content {
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px 1px;
+    border-radius: 6px;
+    background: #fff;
+    width: 400px !important;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.register-here-part li {
+    float: left;
+}
+
+.submit-btn {
+    background: rgb(234, 29, 93);
+    border-radius: 4px;
+    color: #fff;
+    height: 42px;
+    border: 0;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s ;
+    -ms-transition: 0.3s ;
+    -o-transition: 0.3s ;
+    transition: 0.3s ;
+}
+.submit-btn:hover{
+    background: rgb(194, 18, 73);
+}
+
+.google-btn {
+    background: #fff;
+    color: rgb(221, 75, 57);
+    border-radius: 4px;
+    font-size: 20px;
+    width: 78% !important;
+    height: 42px;
+    border: 3px solid  rgb(221, 75, 57);
+    -webkit-transition: 0.3s ;
+    -moz-transition: 0.3s ;
+    -ms-transition: 0.3s ;
+    -o-transition: 0.3s ;
+    transition: 0.3s ;
+}
+
+.google-btn:hover {
+    background: rgb(221, 75, 57);
+    color: #fff;
+
+}
+.form-control{
+
+}
+.form-control:focus{
+    border:rgb(221, 75, 57) !important ;
+}
+.login-page-logo{
+    margin-top:50px;
+}
